@@ -109,6 +109,9 @@ public interface SecurityManager extends Authenticator, Authorizer, SessionManag
      * @see Subject.Builder
      * @since 1.0
      */
+    /**
+     * 创建Subject
+     */
     Subject createSubject(SubjectContext context);
 
 }
